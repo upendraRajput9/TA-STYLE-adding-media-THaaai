@@ -1,0 +1,318 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom */
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 32px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.center{
+    display: flex;
+    align-items: center;
+}
+/* general */
+body{
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.5;
+}
+.header{
+    padding: 25px 0;
+}
+
+.hydro{
+    background:  linear-gradient(to right, rgba(49,112,186, 0.7), rgba(139,241,146, 0.7)), url(../media/home-bg.jpg);
+    color: white;
+}
+
+h1{
+    font-size: 30px;
+}
+.head-link a{
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+}
+.icon-menu a{
+    margin-left: 30px;
+}
+i{
+    color: white;
+}
+.btn{
+    color: white;
+    background-color: rgb(245, 48, 13);
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+.vedio{
+    vertical-align: middle;
+   padding: 250px 0;
+}
+h2{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.btn-2{
+    border: 1px solid white;
+    background-color: transparent;
+}
+.address-info{
+    font-size: 13px;
+    justify-content: flex-start;
+}
+address{
+    margin-left: 20px;
+}
+/* section-2 */
+.introduce-blog{
+    margin-top: 45px;
+}
+h3{
+    font-size: 25px;
+    margin-bottom: 18px;
+}
+.squre{
+    width: 40px;
+    margin-bottom: 18px;
+}
+.small-squre{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(216,216,216);
+}
+.white{
+    height: 4px;
+    margin-bottom: 15px;
+}
+.black{
+    background-color: black;
+    height: 4px;
+}
+.let-us-introduce{
+    width: 55%;
+}
+
+.introduce{
+    width: 60%;
+    line-height: 20px;
+}
+.introduce p{
+    font-size: 13px;
+    color: rgb(161, 161, 161);
+    margin-bottom: 15px;
+    line-height: 30px;
+}
+.progress{
+    line-height: 40px;
+    width: 35%;
+}
+.bar-1{
+width: 85%;
+}
+.bar-2{
+    width: 90%;
+}
+.bar-3{
+    width: 75%;
+}
+.bar-4{
+    width: 70%;
+}
+figure{
+    width: 35%;
+   margin-bottom: -6px;
+
+}
+img{
+    width: 100%;
+   
+}
+/* section-3 */
+.our-blog{
+    background-color: rgb(239,239,239);
+    padding: 60px 0;
+}
+header{
+    text-align: center;
+}
+.icon-box{
+    display: flex;
+    justify-content: center; 
+    margin-top: -10px;
+}
+.small-squre-2{
+    margin: 0 5px;
+}
+time{
+    color: rgb(218,102,100);
+}
+
+time i{
+    color: rgb(218,102,100);
+}
+.btn-3{
+ background-color: rgb(239,239,239);
+ color: black;
+ 
+}
+.blog-table{
+   margin-top: 30px;
+}
+ .table{
+     width: 48.5%;
+     background-color: white;
+ }
+ .fig-table img{
+     width: 100%;
+ }
+ .table-content{
+     line-height: 30px;
+   width: 60%;
+ }
+ .table-content h4{
+     font-size: 25px;
+ }
+ .table-content p{
+     margin-bottom: 30px;
+ }
+ /* section-3 */
+ .work{
+     padding: 45px 0;
+ }
+ .work-table{
+     padding: 30px 0;
+ }
+ .work-div img {
+     width: 100%;
+ }
+ .work-div{
+     width: 23%;
+ }
+ /* section-4 */
+ .contact{
+     background: linear-gradient(to right, rgb(49,112,186), rgb(139,241,146));
+     padding: 80px 0;
+ }
+ .form-map{
+     padding: 50px 0;
+ }
+ .form{
+     width: 60%;
+ }
+ span{
+     display: block;
+     padding: 18px 0;
+     padding-left: 10px;
+ }
+ .small-box{
+     background-color: white;
+     margin-bottom: 10px;
+     width: 49%;
+     border-radius: 5px;
+     
+ }
+ .requirement{
+    background-color: white;
+    padding-bottom: 60px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+ }
+ .map{
+     border-radius: 50%;
+ }
+ /* footer */
+ footer{
+     background: linear-gradient(rgb(66,66,66), rgb(0,0,0));
+     color:gray;
+     padding-bottom: 80px;
+ }
+ .foot-info{
+     
+    padding-bottom: 30px;
+     vertical-align: top;
+     padding-top: 80px;
+     
+ }
+ h5{
+     font-size: 25px;
+     margin-bottom: 10px;
+     color: white;
+ }
+ .foot-hydro{
+     width: 35%;
+    
+ }
+ .ul-1{
+     width: 10%;
+     
+ }
+ hr{
+     margin-bottom: 30px;
+ }
+ .address{
+     width: 25%;
+ }
+ .bottom{
+     padding-right: 150px;
+ }
+ .icon-menu{
+    padding-left: 70px;
+ }
