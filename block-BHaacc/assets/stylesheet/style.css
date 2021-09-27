@@ -63,9 +63,15 @@ table {
     justify-content: space-between;
     align-items: center;
 }
+.align-start{
+    align-items: flex-start;
+}
 .center{
     display: flex;
     align-items: center;
+}
+.hover:hover{
+    color: #000;
 }
 /* general */
 body{
@@ -101,6 +107,9 @@ i{
     text-decoration: none;
     padding: 10px 30px;
     border-radius: 30px;
+}
+.hover a:hover{
+    color: rgb(8, 3, 80);
 }
 .vedio{
     vertical-align: middle;
@@ -140,18 +149,19 @@ h3{
 }
 .white{
     height: 4px;
-    margin-bottom: 15px;
+    background-color: rgb(240, 233, 233);
 }
 .black{
     background-color: black;
     height: 4px;
 }
 .let-us-introduce{
-    width: 55%;
+    width: 64%;
+  
 }
 
 .introduce{
-    width: 60%;
+    width: 48%;
     line-height: 20px;
 }
 .introduce p{
@@ -161,8 +171,8 @@ h3{
     line-height: 30px;
 }
 .progress{
-    line-height: 40px;
-    width: 35%;
+    line-height: 18px;
+    width: 40%;
 }
 .bar-1{
 width: 85%;
@@ -306,6 +316,9 @@ time i{
  }
  hr{
      margin-bottom: 30px;
+   border: none; 
+   background-color: gray;
+   height: 1px;
  }
  .address{
      width: 25%;
